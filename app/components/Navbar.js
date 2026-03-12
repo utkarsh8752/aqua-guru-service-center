@@ -50,7 +50,7 @@ export default function Navbar() {
           </div>
 
           {/* Desktop Menu */}
-          <ul className="hidden md:flex gap-8 text-gray-700 font-medium">
+          <ul className="hidden lg:flex gap-8 text-gray-700 font-medium">
             <li><Link href="/">Home</Link></li>
             <li><Link href="/about">About</Link></li>
             <li><Link href="/services">Services</Link></li>
@@ -59,7 +59,7 @@ export default function Navbar() {
           </ul>
 
           {/* Phone Button */}
-          <div className="hidden md:block">
+          <div className="hidden lg:block">
             <a
               href="tel:7499741546"
               className="bg-blue-700 text-white px-5 py-2 rounded-lg hover:bg-blue-800"
@@ -70,7 +70,7 @@ export default function Navbar() {
 
           {/* Mobile Menu Button */}
           <div
-            className="md:hidden text-2xl cursor-pointer"
+            className="lg:hidden text-2xl cursor-pointer"
             onClick={() => setMenuOpen(!menuOpen)}
           >
             {menuOpen ? <FaTimes /> : <FaBars />}
@@ -80,7 +80,7 @@ export default function Navbar() {
 
         {/* Mobile Menu */}
         {menuOpen && (
-          <div className="md:hidden bg-white shadow-lg">
+          <div className="lg:hidden bg-white shadow-lg">
             <ul className="flex flex-col gap-4 p-6 text-gray-700 font-medium">
 
               <li><Link href="/">Home</Link></li>
