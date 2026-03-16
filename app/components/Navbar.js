@@ -49,7 +49,7 @@ export default function Navbar() {
 
             <div>
               <h1 className="font-bold text-blue-700 text-lg">
-                AQUA Guru Service Center
+                Aqua Guru Service Center
               </h1>
 
               <p className="text-xs tracking-widest text-gray-600">

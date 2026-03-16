@@ -96,7 +96,7 @@ Brand: ${form.brand}`;
           value={form.brand}
           onChange={handleChange}
           className="w-full border p-2 rounded"
-          placeholder="What is the brand of your RO water purifier?"
+          placeholder="Which brand is your RO purifier?"
         />
 
         <button className="bg-blue-600 text-white w-full py-2 rounded">

@@ -16,7 +16,7 @@ export default function Footer() {
           <p className="text-sm leading-6">
             Aqua Smart RO Services is a trusted name for professional RO water
             purifier repair and service across Mumbai, Navi Mumbai, Thane,
-            Mira Bhayandar, Pune and Goa.
+            Mira Bhayandar,virar.
           </p>
 
           {/* Social icons */}
@@ -74,12 +74,12 @@ export default function Footer() {
           <p className="text-sm">
             Phone: 
             <a href="tel:7499741546" className="text-blue-600 ml-1">
-              7499741546
+              +91 7499741546
             </a>
           </p>
 
           <p className="text-sm mt-2">
-            Email: info@aquasmartroservices.in
+            Email: oyoservices44@gmail.com
           </p>
         </div>
 
@@ -89,7 +89,7 @@ export default function Footer() {
       <div className="border-t mt-10 pt-4 text-center text-sm px-4">
         Copyright © 2026 Aqua Guru service center. 
         <br className="sm:hidden"/>
-        All rights reserved. Website & Ads Managed by Aqua Guru
+        All rights reserved. Website & Ads Managed by Aqua Guru service center
       </div>
 
     </footer>

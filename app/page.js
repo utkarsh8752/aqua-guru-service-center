@@ -26,7 +26,7 @@ export default function Home() {
             </p>
 
             <h1 className="text-3xl md:text-5xl font-bold mb-6">
-              Aqua Smart Ro <br /> Services
+              Aqua Guru Ro <br /> Services
             </h1>
 
             <p className="mb-6">
@@ -258,15 +258,7 @@ export default function Home() {
 
       <Bookservice />
 
-      {/* WhatsApp Floating */}
-        <a
-        href="https://wa.me/917499741546"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="fixed bottom-6 left-4 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition text-3xl z-50 md:flex hidden"
-      >
-        <FaWhatsapp />
-      </a>
+      
 
       {/* Mobile/Tablet - WhatsApp left, Call right, Message in middle */}
       <div className="fixed bottom-6 left-1/2 transform -translate-x-1/2 w-full max-w-md flex justify-between items-center md:hidden z-50 px-4">

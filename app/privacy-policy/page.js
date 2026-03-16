@@ -1,4 +1,6 @@
 import { FaWhatsapp } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
+
 
 export default function Page() {
   return (
@@ -73,14 +75,42 @@ export default function Page() {
       </section>
       
     </main>
-    <a
+    {/* WhatsApp Floating */}
+
+            <a
+            href="https://wa.me/917499741546"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="fixed bottom-6 left-4 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition text-3xl z-50 md:flex hidden"
+          >
+            <FaWhatsapp />
+          </a>
+    
+          {/* Mobile/Tablet - WhatsApp left, Call right, Message in middle */}
+          <div className="fixed bottom-6 left-1/2 transform -translate-x-1/2 w-full max-w-md flex justify-between items-center md:hidden z-50 px-4">
+            {/* WhatsApp */}
+            <a
               href="https://wa.me/917499741546"
               target="_blank"
               rel="noopener noreferrer"
-              className="fixed bottom-6 left-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition text-3xl z-50"
+              className="bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition text-3xl flex items-center justify-center"
             >
               <FaWhatsapp />
             </a>
+    
+            {/* Message bubble in middle */}
+            <span className="bg-gray-800 text-white px-3 py-2 rounded shadow-lg text-sm whitespace-nowrap">
+              Book Your Service, Call Now!
+            </span>
+    
+            {/* Call */}
+            <a
+              href="tel:+917499741546"
+              className="bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition text-3xl flex items-center justify-center"
+            >
+              <FaPhoneAlt />
+            </a>
+          </div>
     </div>
   );
 }

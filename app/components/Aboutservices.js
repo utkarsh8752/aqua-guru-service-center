@@ -11,7 +11,7 @@ function Aboutservices() {
                   {/* Left Text */}
                   <div>
                     <p className="text-blue-600 text-xl font-bold mb-2">
-                      About Aqua Smart RO Services
+                      About Aqua Guru Service Center
                     </p>
         
                     <h2 className="text-3xl font-bold mb-6">
@@ -21,7 +21,7 @@ function Aboutservices() {
                     <p className="text-gray-600 mb-4">
                       Aqua Smart RO Services is a trusted name for professional RO
                       water purifier repair and service across Mumbai, Navi Mumbai,
-                      Thane, Mira Bhayandar, Pune and Goa.
+                      Thane, Mira Bhayandar,Virar.
                     </p>
         
                     <p className="text-gray-600">
@@ -39,7 +39,7 @@ function Aboutservices() {
                   {/* Right Image */}
                   <div className="flex justify-center">
                     <Image
-                      src="/hero.png"
+                      src="/about.png"
                       alt="RO Service"
                       width={450}
                       height={450}
@@ -53,6 +53,5 @@ function Aboutservices() {
   )
 }
 
-// export default Aboutservices
 
 export default Aboutservices;

@@ -133,7 +133,7 @@ function Services() {
             {/* Service 6 */}
             <div className="shadow-lg rounded-lg overflow-hidden">
               <Image
-                src="/commercial.png"
+                src="/commercial-image.png"
                 alt="Commercial RO"
                 width={400}
                 height={250}
